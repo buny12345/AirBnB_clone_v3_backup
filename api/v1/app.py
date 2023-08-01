@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-from flask import Flask, jsonify
 """
 sets up a Flask application for an API
 registers blueprints for the API routes
 defines a teardown function to close the app session,
 and an error handler for 404 errors.
 """
+from flask import Flask, jsonify
 from models import storage
 from api.v1.views.index import app_views
 from os import getenv
