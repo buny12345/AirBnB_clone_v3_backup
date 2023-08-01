@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""
+defines two routes for a Flask application.
+"""
 from api.v1.views import app_views
 from flask import jsonify
 
